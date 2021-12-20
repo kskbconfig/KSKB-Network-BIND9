@@ -20,9 +20,9 @@ options {
         //========================================================================
     //pid-file "/run/named/named.pid";
 
-    listen-on port 53 { 172.22.77.47; };
+    listen-on port 53 { 172.22.77.46; };
     listen-on-v6 port 53 { fd28:cb8f:4c92:bbbb::53; };
-    # 為了安全性只允許自己人進行遞迴查詢
+    # allow recursion for local net only
     allow-recursion { 172.22.77.32/28; fd28:cb8f:4c92::/48;};
 
     allow-transfer { none; };
@@ -32,6 +32,8 @@ options {
     forwarders {
         1.1.1.1;
         8.8.4.4;
+        2606:4700:4700::1111;
+        2001:4860:4860::8888;
     };
 
     forward only;
