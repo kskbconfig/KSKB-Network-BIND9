@@ -20,5 +20,5 @@ de                        IN    A        172.22.77.42
 ns                        IN    AAAA     fd28:cb8f:4c92:bbbb::53
 tw                        IN    AAAA     fd28:cb8f:4c92::33
 pc.tw                     IN    AAAA     fd28:cb8f:4c92::34
-de                        IN    AAAA     fd28:cb8f:4c92:a::1
 us                        IN    AAAA     fd28:cb8f:4c92:9::1
+de                        IN    AAAA     fd28:cb8f:4c92:a::1

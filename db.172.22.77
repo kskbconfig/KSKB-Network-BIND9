@@ -13,5 +13,5 @@ $TTL    3600
 47             IN    PTR     ns.kskb.dn42.
 33             IN    PTR     tw.kskb.dn42.
 34             IN    PTR     pc.tw.kskb.dn42.
-41             IN    PTR     de.kskb.dn42.
-42             IN    PTR     us.kskb.dn42.
+41             IN    PTR     us.kskb.dn42.
+42             IN    PTR     de.kskb.dn42.
