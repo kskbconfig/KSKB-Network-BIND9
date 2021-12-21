@@ -12,6 +12,8 @@ $TTL    3600
 ; NS records
 @                         IN    NS       ns.kskb.dn42.
 ; A records or CNAME records
+@                         IN    A        172.22.77.33
+@                         IN    AAAA     fd28:cb8f:4c92::33
 ns                        IN    A        172.22.77.46
 tw                        IN    A        172.22.77.33
 pc.tw                     IN    A        172.22.77.34
