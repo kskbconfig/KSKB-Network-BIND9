@@ -32,9 +32,9 @@ zone "kskb.dn42" {
         file "/etc/bind/db.kskb.dn42";
 };
 
-zone "77.22.172.in-addr.arpa" {
+zone "32/28.77.22.172.in-addr.arpa." {
         type master;
-        file "/etc/bind/db.172.22.77";
+        file "/etc/bind/db.172.22.77.32";
 };
 
 zone "2.9.c.4.f.8.b.c.8.2.d.f.ip6.arpa" IN {

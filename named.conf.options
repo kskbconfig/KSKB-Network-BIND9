@@ -18,7 +18,7 @@ options {
         // If BIND logs error messages about the root key being expired,
         // you will need to update your keys.  See https://www.isc.org/bind-keys
         //========================================================================
-
+    check-names master ignore;
     listen-on port 53 { 172.22.77.46; };
     listen-on-v6 port 53 { fd28:cb8f:4c92:bbbb::53; };
     # allow recursion for local net only
